@@ -6,7 +6,14 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.5" />
+    <PackageReference Include="SimpleValidator" Version="0.6.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\eazy.rest.data\eazy.rest.data.csproj" />
+    <ProjectReference Include="..\eazy.rest.extension\eazy.rest.extension.csproj" />
+    <ProjectReference Include="..\eazy.rest.services\eazy.rest.services.csproj" />
   </ItemGroup>
 
 </Project>
